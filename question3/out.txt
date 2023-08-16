@@ -1,0 +1,517 @@
+1	|	systemd	|	root
+2	|	kthreadd	|	root
+3	|	rcu_gp	|	root
+4	|	rcu_par_gp	|	root
+5	|	slub_flushwq	|	root
+6	|	netns	|	root
+8	|	kworker/0:0H-events_highpri	|	root
+10	|	mm_percpu_wq	|	root
+11	|	rcu_tasks_kthread	|	root
+12	|	rcu_tasks_rude_kthread	|	root
+13	|	rcu_tasks_trace_kthread	|	root
+14	|	ksoftirqd/0	|	root
+15	|	rcu_preempt	|	root
+16	|	migration/0	|	root
+17	|	idle_inject/0	|	root
+19	|	cpuhp/0	|	root
+20	|	cpuhp/1	|	root
+21	|	idle_inject/1	|	root
+22	|	migration/1	|	root
+23	|	ksoftirqd/1	|	root
+25	|	kworker/1:0H-events_highpri	|	root
+26	|	cpuhp/2	|	root
+27	|	idle_inject/2	|	root
+28	|	migration/2	|	root
+29	|	ksoftirqd/2	|	root
+31	|	kworker/2:0H-events_highpri	|	root
+32	|	cpuhp/3	|	root
+33	|	idle_inject/3	|	root
+34	|	migration/3	|	root
+35	|	ksoftirqd/3	|	root
+37	|	kworker/3:0H-events_highpri	|	root
+38	|	cpuhp/4	|	root
+39	|	idle_inject/4	|	root
+40	|	migration/4	|	root
+41	|	ksoftirqd/4	|	root
+43	|	kworker/4:0H-events_highpri	|	root
+44	|	cpuhp/5	|	root
+45	|	idle_inject/5	|	root
+46	|	migration/5	|	root
+47	|	ksoftirqd/5	|	root
+49	|	kworker/5:0H-events_highpri	|	root
+50	|	cpuhp/6	|	root
+51	|	idle_inject/6	|	root
+52	|	migration/6	|	root
+53	|	ksoftirqd/6	|	root
+55	|	kworker/6:0H-events_highpri	|	root
+56	|	cpuhp/7	|	root
+57	|	idle_inject/7	|	root
+58	|	migration/7	|	root
+59	|	ksoftirqd/7	|	root
+61	|	kworker/7:0H-events_highpri	|	root
+62	|	kdevtmpfs	|	root
+63	|	inet_frag_wq	|	root
+64	|	kauditd	|	root
+65	|	khungtaskd	|	root
+67	|	oom_reaper	|	root
+69	|	writeback	|	root
+70	|	kcompactd0	|	root
+71	|	ksmd	|	root
+73	|	khugepaged	|	root
+74	|	kintegrityd	|	root
+75	|	kblockd	|	root
+76	|	blkcg_punt_bio	|	root
+83	|	tpm_dev_wq	|	root
+84	|	ata_sff	|	root
+85	|	md	|	root
+86	|	edac-poller	|	root
+87	|	devfreq_wq	|	root
+88	|	watchdogd	|	root
+89	|	kworker/7:1H-events_highpri	|	root
+90	|	kswapd0	|	root
+91	|	ecryptfs-kthread	|	root
+92	|	kthrotld	|	root
+93	|	irq/122-aerdrv	|	root
+94	|	irq/123-aerdrv	|	root
+95	|	irq/123-pciehp	|	root
+96	|	irq/124-aerdrv	|	root
+97	|	acpi_thermal_pm	|	root
+98	|	xenbus_probe	|	root
+99	|	hwrng	|	root
+100	|	mld	|	root
+101	|	kworker/0:1H-kblockd	|	root
+102	|	ipv6_addrconf	|	root
+111	|	kstrp	|	root
+113	|	zswap-shrink	|	root
+118	|	charger_manager	|	root
+140	|	kworker/1:1H-kblockd	|	root
+152	|	kworker/5:1H-kblockd	|	root
+153	|	kworker/3:1H-kblockd	|	root
+154	|	kworker/2:1H-kblockd	|	root
+155	|	kworker/6:1H-kblockd	|	root
+156	|	kworker/4:1H-events_highpri	|	root
+179	|	nvme-wq	|	root
+180	|	nvme-reset-wq	|	root
+181	|	nvme-delete-wq	|	root
+182	|	nvme-auth-wq	|	root
+185	|	scsi_eh_0	|	root
+186	|	scsi_tmf_0	|	root
+187	|	scsi_eh_1	|	root
+188	|	scsi_tmf_1	|	root
+189	|	scsi_eh_2	|	root
+190	|	scsi_tmf_2	|	root
+216	|	jbd2/nvme0n1p3-8	|	root
+217	|	ext4-rsv-conver	|	root
+257	|	systemd-journald	|	root
+289	|	systemd-udevd	|	root
+371	|	irq/138-mei_me	|	root
+414	|	cfg80211	|	root
+424	|	irq/139-iwlwifi	|	root
+433	|	cryptd	|	root
+453	|	card0-crtc0	|	root
+454	|	card0-crtc1	|	root
+455	|	card0-crtc2	|	root
+511	|	systemd-oomd	|	systemd-oom
+512	|	systemd-resolved	|	systemd-resolve
+513	|	systemd-timesyncd	|	systemd-timesync
+550	|	accounts-daemon	|	root
+551	|	acpid	|	root
+554	|	avahi-daemon	|	avahi
+555	|	bluetoothd	|	root
+557	|	cron	|	root
+559	|	dbus-daemon	|	messagebus
+560	|	NetworkManager	|	root
+569	|	irqbalance	|	root
+571	|	networkd-dispat	|	root
+573	|	polkitd	|	root
+576	|	power-profiles-daemon	|	root
+578	|	rsyslogd	|	syslog
+582	|	snapd	|	root
+584	|	switcheroo-control	|	root
+591	|	systemd-logind	|	root
+592	|	thermald	|	root
+597	|	udisksd	|	root
+598	|	wpa_supplicant	|	root
+611	|	avahi-daemon	|	avahi
+648	|	ModemManager	|	root
+651	|	containerd	|	root
+694	|	gdm3	|	root
+742	|	cupsd	|	root
+743	|	unattended-upgr	|	root
+788	|	gdm-session-wor	|	root
+942	|	systemd	|	zakisk
+955	|	(sd-pam)	|	zakisk
+999	|	pipewire	|	zakisk
+1000	|	pipewire-media-session	|	zakisk
+1001	|	pulseaudio	|	zakisk
+1002	|	snapd-desktop-integration	|	zakisk
+1017	|	gnome-keyring-daemon	|	zakisk
+1020	|	rtkit-daemon	|	rtkit
+1027	|	gdm-wayland-session	|	zakisk
+1031	|	dbus-daemon	|	zakisk
+1034	|	gnome-session-binary	|	zakisk
+1036	|	gvfsd	|	zakisk
+1055	|	gvfsd-fuse	|	zakisk
+1104	|	gnome-session-ctl	|	zakisk
+1116	|	gnome-session-binary	|	zakisk
+1127	|	krfcommd	|	root
+1137	|	at-spi-bus-launcher	|	zakisk
+1140	|	gnome-shell	|	zakisk
+1147	|	dbus-daemon	|	zakisk
+1188	|	xdg-document-portal	|	zakisk
+1191	|	xdg-permission-store	|	zakisk
+1197	|	fusermount3	|	zakisk
+1281	|	gnome-shell-calendar-server	|	zakisk
+1287	|	evolution-source-registry	|	zakisk
+1289	|	snapd-desktop-integration	|	zakisk
+1296	|	xdg-desktop-portal	|	zakisk
+1297	|	upowerd	|	root
+1301	|	goa-daemon	|	zakisk
+1305	|	xdg-desktop-portal-gnome	|	zakisk
+1306	|	gvfs-udisks2-volume-monitor	|	zakisk
+1312	|	evolution-calendar-factory	|	zakisk
+1330	|	goa-identity-service	|	zakisk
+1331	|	gvfs-afc-volume-monitor	|	zakisk
+1339	|	gvfs-gphoto2-volume-monitor	|	zakisk
+1349	|	gvfs-mtp-volume-monitor	|	zakisk
+1354	|	dconf-service	|	zakisk
+1362	|	evolution-addressbook-factory	|	zakisk
+1363	|	gvfs-goa-volume-monitor	|	zakisk
+1377	|	packagekitd	|	root
+1384	|	gvfsd-trash	|	zakisk
+1394	|	gjs	|	zakisk
+1396	|	at-spi2-registryd	|	zakisk
+1412	|	sh	|	zakisk
+1413	|	gsd-a11y-settings	|	zakisk
+1415	|	ibus-daemon	|	zakisk
+1416	|	gsd-color	|	zakisk
+1420	|	gsd-datetime	|	zakisk
+1421	|	gsd-housekeeping	|	zakisk
+1424	|	gsd-keyboard	|	zakisk
+1425	|	gsd-media-keys	|	zakisk
+1434	|	gsd-power	|	zakisk
+1435	|	gsd-print-notifications	|	zakisk
+1436	|	gsd-rfkill	|	zakisk
+1438	|	gsd-screensaver-proxy	|	zakisk
+1451	|	gsd-sharing	|	zakisk
+1452	|	gsd-smartcard	|	zakisk
+1453	|	gsd-sound	|	zakisk
+1454	|	gsd-wacom	|	zakisk
+1496	|	gsd-disk-utility-notify	|	zakisk
+1504	|	evolution-alarm-notify	|	zakisk
+1526	|	ibus-dconf	|	zakisk
+1527	|	ibus-extension-gtk3	|	zakisk
+1551	|	snap-store	|	zakisk
+1560	|	ibus-portal	|	zakisk
+1597	|	ibus-engine-simple	|	zakisk
+1654	|	gsd-printer	|	zakisk
+1722	|	xdg-desktop-portal-gtk	|	zakisk
+1746	|	colord	|	colord
+1749	|	tracker-miner-fs-3	|	zakisk
+1757	|	gjs	|	zakisk
+1918	|	gvfsd-metadata	|	zakisk
+1931	|	cups-browsed	|	root
+1932	|	dockerd	|	root
+1938	|	kerneloops	|	kernoops
+1941	|	kerneloops	|	kernoops
+1951	|	iprt-VBoxWQueue	|	root
+1957	|	iprt-VBoxTscThread	|	root
+2219	|	docker-proxy	|	root
+2232	|	docker-proxy	|	root
+2245	|	docker-proxy	|	root
+2257	|	docker-proxy	|	root
+2270	|	docker-proxy	|	root
+2285	|	docker-proxy	|	root
+2320	|	containerd-shim-runc-v2	|	root
+2321	|	containerd-shim-runc-v2	|	root
+2322	|	containerd-shim-runc-v2	|	root
+2383	|	systemd	|	root
+2384	|	systemd	|	root
+2396	|	systemd	|	root
+2864	|	systemd-journald	|	root
+2871	|	iscsi_conn_clea	|	root
+2874	|	ib-comp-wq	|	root
+2875	|	ib-comp-unb-wq	|	root
+2876	|	ib_mcast	|	root
+2877	|	ib_nl_sa_wq	|	root
+2878	|	rdma_cm	|	root
+2885	|	containerd	|	root
+2947	|	systemd-journald	|	root
+2962	|	containerd	|	root
+3019	|	systemd-journald	|	root
+3033	|	containerd	|	root
+3816	|	kubelet	|	root
+3894	|	kubelet	|	root
+3957	|	kubelet	|	root
+4005	|	containerd-shim-runc-v2	|	root
+4006	|	containerd-shim-runc-v2	|	root
+4036	|	containerd-shim-runc-v2	|	root
+4047	|	containerd-shim-runc-v2	|	root
+4095	|	pause	|	
+4102	|	pause	|	
+4109	|	pause	|	
+4117	|	pause	|	
+4131	|	containerd-shim-runc-v2	|	root
+4163	|	pause	|	
+4181	|	containerd-shim-runc-v2	|	root
+4208	|	containerd-shim-runc-v2	|	root
+4227	|	containerd-shim-runc-v2	|	root
+4370	|	pause	|	
+4378	|	etcd	|	root
+4379	|	kube-controller-manager	|	root
+4392	|	kube-apiserver	|	root
+4399	|	kube-scheduler	|	root
+4406	|	etcd	|	root
+4409	|	pause	|	
+4420	|	pause	|	
+4579	|	kube-apiserver	|	root
+4586	|	kube-controller-manager	|	root
+4590	|	kube-scheduler	|	root
+4696	|	chrome	|	zakisk
+4701	|	cat	|	zakisk
+4702	|	cat	|	zakisk
+4706	|	chrome_crashpad_handler	|	zakisk
+4708	|	chrome_crashpad_handler	|	zakisk
+4714	|	chrome	|	zakisk
+4715	|	chrome	|	zakisk
+4716	|	nacl_helper	|	zakisk
+4719	|	chrome	|	zakisk
+4731	|	Xwayland	|	zakisk
+4752	|	gsd-xsettings	|	zakisk
+4784	|	ibus-x11	|	zakisk
+4838	|	chrome	|	zakisk
+4843	|	chrome	|	zakisk
+5234	|	containerd-shim-runc-v2	|	root
+5290	|	containerd-shim-runc-v2	|	root
+5451	|	pause	|	
+5478	|	containerd-shim-runc-v2	|	root
+5496	|	pause	|	
+5584	|	containerd-shim-runc-v2	|	root
+5674	|	containerd-shim-runc-v2	|	root
+5728	|	containerd-shim-runc-v2	|	root
+5740	|	containerd-shim-runc-v2	|	root
+5790	|	containerd-shim-runc-v2	|	root
+5840	|	pause	|	
+5858	|	containerd-shim-runc-v2	|	root
+5860	|	containerd-shim-runc-v2	|	root
+5861	|	containerd-shim-runc-v2	|	root
+5864	|	pause	|	
+5953	|	containerd-shim-runc-v2	|	root
+6033	|	pause	|	
+6036	|	containerd-shim-runc-v2	|	root
+6108	|	pause	|	
+6150	|	kube-proxy	|	root
+6221	|	pause	|	
+6226	|	pause	|	
+6245	|	pause	|	
+6348	|	containerd-shim-runc-v2	|	root
+6416	|	containerd-shim-runc-v2	|	root
+6463	|	pause	|	
+6512	|	pause	|	
+6595	|	containerd-shim-runc-v2	|	root
+6634	|	containerd-shim-runc-v2	|	root
+6638	|	containerd-shim-runc-v2	|	root
+6734	|	containerd-shim-runc-v2	|	root
+6834	|	containerd-shim-runc-v2	|	root
+6928	|	containerd-shim-runc-v2	|	root
+6967	|	pause	|	
+7028	|	pause	|	
+7029	|	containerd-shim-runc-v2	|	root
+7066	|	pause	|	
+7100	|	pause	|	
+7120	|	pause	|	
+7142	|	pause	|	
+7255	|	containerd-shim-runc-v2	|	root
+7357	|	virt-api	|	
+7374	|	coredns	|	root
+7406	|	kindnetd	|	root
+7463	|	containerd-shim-runc-v2	|	root
+7537	|	pause	|	
+7609	|	coredns	|	root
+7628	|	pause	|	
+7631	|	pause	|	
+7660	|	pause	|	
+7672	|	pause	|	
+7673	|	pause	|	
+7877	|	coredns	|	root
+7912	|	containerd-shim-runc-v2	|	root
+7944	|	coredns	|	root
+7977	|	kindnetd	|	root
+8075	|	containerd-shim-runc-v2	|	root
+8086	|	containerd-shim-runc-v2	|	root
+8090	|	pause	|	
+8104	|	containerd-shim-runc-v2	|	root
+8172	|	dumb-init	|	systemd-resolve
+8195	|	pause	|	
+8244	|	containerd-shim-runc-v2	|	root
+8311	|	kube-proxy	|	root
+8349	|	containerd-shim-runc-v2	|	root
+8408	|	virt-operator	|	
+8465	|	containerd-shim-runc-v2	|	root
+8531	|	containerd-shim-runc-v2	|	root
+8572	|	containerd-shim-runc-v2	|	root
+8604	|	containerd-shim-runc-v2	|	root
+8612	|	containerd-shim-runc-v2	|	root
+8648	|	containerd-shim-runc-v2	|	root
+8714	|	containerd-shim-runc-v2	|	root
+8744	|	pause	|	
+8782	|	containerd-shim-runc-v2	|	root
+8783	|	containerd-shim-runc-v2	|	root
+8784	|	containerd-shim-runc-v2	|	root
+8875	|	containerd-shim-runc-v2	|	root
+8961	|	nginx-ingress-controller	|	systemd-resolve
+9253	|	pause	|	
+9263	|	pause	|	
+9303	|	pause	|	
+9320	|	pause	|	
+9322	|	pause	|	
+9350	|	pause	|	
+9356	|	pause	|	
+9370	|	cdi-uploadproxy	|	
+9379	|	dumb-init	|	systemd-resolve
+9420	|	cdi-apiserver	|	
+9429	|	pause	|	
+9431	|	pause	|	
+9451	|	pause	|	nobody
+9481	|	cdi-controller	|	
+9488	|	virt-controller	|	
+9502	|	kindnetd	|	root
+9504	|	pause	|	
+9520	|	virt-operator	|	
+9553	|	pause	|	
+9587	|	pause	|	
+9596	|	pause	|	nobody
+9597	|	dumb-init	|	systemd-resolve
+9610	|	virt-controller	|	
+9629	|	nginx-ingress-controller	|	systemd-resolve
+9675	|	pause	|	
+9872	|	nginx-ingress-controller	|	systemd-resolve
+10112	|	kubermatic-operator	|	nobody
+10203	|	kubermatic-webhook	|	nobody
+10282	|	dashboard	|	nobody
+10291	|	chrome	|	zakisk
+10330	|	dashboard	|	nobody
+10387	|	kubectl	|	root
+10747	|	chrome	|	zakisk
+10823	|	chrome	|	zakisk
+10857	|	chrome	|	zakisk
+10985	|	envoy-manager	|	root
+10986	|	envoy-manager	|	root
+11105	|	seed-controller-manager	|	nobody
+11226	|	chrome	|	zakisk
+11306	|	envoy	|	
+11315	|	envoy	|	
+11489	|	chrome	|	zakisk
+12871	|	master-controller-manager	|	nobody
+12877	|	cdi-operator	|	
+12948	|	lb-updater	|	root
+13106	|	envoy-manager	|	root
+13179	|	virt-api	|	
+13545	|	dex	|	
+13549	|	dex	|	
+13656	|	chrome	|	zakisk
+13685	|	nginx	|	systemd-resolve
+13688	|	nginx	|	systemd-resolve
+13690	|	nginx	|	systemd-resolve
+13698	|	nginx	|	systemd-resolve
+13699	|	nginx	|	systemd-resolve
+13700	|	nginx	|	systemd-resolve
+13701	|	nginx	|	systemd-resolve
+13702	|	nginx	|	systemd-resolve
+13703	|	nginx	|	systemd-resolve
+13704	|	nginx	|	systemd-resolve
+13705	|	nginx	|	systemd-resolve
+13706	|	nginx	|	systemd-resolve
+13824	|	nginx	|	systemd-resolve
+13825	|	nginx	|	systemd-resolve
+13826	|	nginx	|	systemd-resolve
+13827	|	nginx	|	systemd-resolve
+13828	|	nginx	|	systemd-resolve
+13829	|	nginx	|	systemd-resolve
+13830	|	nginx	|	systemd-resolve
+13831	|	nginx	|	systemd-resolve
+13844	|	nginx	|	systemd-resolve
+13864	|	nginx	|	systemd-resolve
+13870	|	nginx	|	systemd-resolve
+13879	|	nginx	|	systemd-resolve
+13907	|	nginx	|	systemd-resolve
+13951	|	nginx	|	systemd-resolve
+13978	|	nginx	|	systemd-resolve
+14003	|	nginx	|	systemd-resolve
+14004	|	nginx	|	systemd-resolve
+14005	|	nginx	|	systemd-resolve
+14708	|	gnome-terminal	|	zakisk
+14711	|	gnome-terminal.real	|	zakisk
+14716	|	gnome-terminal-server	|	zakisk
+14748	|	bash	|	zakisk
+15020	|	local-path-provisioner	|	root
+15160	|	update-notifier	|	zakisk
+15471	|	envoy	|	
+16603	|	chrome	|	zakisk
+16641	|	chrome	|	zakisk
+18495	|	chrome	|	zakisk
+18504	|	chrome	|	zakisk
+25820	|	gjs	|	zakisk
+67165	|	code	|	zakisk
+67168	|	code	|	zakisk
+67169	|	code	|	zakisk
+67171	|	code	|	zakisk
+67185	|	chrome_crashpad_handler	|	zakisk
+67202	|	code	|	zakisk
+67219	|	code	|	zakisk
+67244	|	code	|	zakisk
+67271	|	code	|	zakisk
+67281	|	code	|	zakisk
+67291	|	code	|	zakisk
+67292	|	code	|	zakisk
+67401	|	gopls	|	zakisk
+67430	|	bash	|	zakisk
+67869	|	code	|	zakisk
+70624	|	kworker/u17:0-i915_flip	|	root
+74022	|	chrome	|	zakisk
+77980	|	kworker/u16:2-writeback	|	root
+82082	|	kworker/7:0-events	|	root
+85424	|	kworker/u16:5-writeback	|	root
+86407	|	kworker/u17:2-rb_allocator	|	root
+92557	|	kworker/u16:3-flush-259:0	|	root
+93756	|	chrome	|	zakisk
+112986	|	kworker/u16:7-flush-259:0	|	root
+112991	|	kworker/0:2-cgroup_destroy	|	root
+113095	|	kworker/5:1-events	|	root
+114653	|	kworker/2:1-events	|	root
+114985	|	kworker/4:0-events	|	root
+117195	|	kworker/u16:1-flush-259:0	|	root
+119535	|	chrome	|	zakisk
+119659	|	chrome	|	zakisk
+119825	|	kworker/3:1-events	|	root
+119997	|	kworker/4:1-events	|	root
+120036	|	kworker/7:2-events	|	root
+120843	|	chrome	|	zakisk
+123243	|	kworker/6:1-events	|	root
+127667	|	kworker/u16:0-flush-259:0	|	root
+127762	|	kworker/0:3-events	|	root
+130158	|	chrome	|	zakisk
+130278	|	chrome	|	zakisk
+130421	|	kworker/u16:6-i915	|	root
+130422	|	kworker/3:2-events	|	root
+130482	|	kworker/2:0-events	|	root
+133346	|	kworker/1:2-rcu_gp	|	root
+133528	|	kworker/1:3-cgroup_destroy	|	root
+134260	|	kworker/2:3-cgroup_destroy	|	root
+135030	|	kworker/6:0-events	|	root
+135820	|	kworker/5:3-cgroup_destroy	|	root
+136431	|	kworker/1:0-events	|	root
+136776	|	kworker/3:0-events	|	root
+137000	|	kworker/u17:1	|	root
+137029	|	kworker/2:2-cgroup_destroy	|	root
+137082	|	kworker/4:2-events	|	root
+137083	|	kworker/4:3-cgroup_destroy	|	root
+137084	|	kworker/7:1-events	|	root
+138198	|	kworker/3:3	|	root
+138287	|	kworker/1:1	|	root
+138288	|	kworker/u16:4	|	root
+138417	|	sh	|	zakisk
+138418	|	cpuUsage.sh	|	zakisk
+138421	|	sleep	|	zakisk
+138438	|	go	|	zakisk
+138542	|	main	|	zakisk
